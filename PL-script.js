@@ -1,4 +1,4 @@
-var loader = document.getElementById("pre-oader");
+var loader = document.getElementById("pre-loader");
 window.addEventListener("load", () => {
     loader.style.display = "none";
 })

@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    background-color: #efefef;
+}
 #pre-loader {
     background-image: linear-gradient(to right, #3d5a80 , #98c1d9 );
     background-size: cover;
@@ -30,6 +32,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     color: #e0fbfc;
+    animation: blinks 2s  infinite;
+}
+@keyframes blinks{
+    0% {color: #e0fbfc;}
+    50% {color: transparent;}
+    100% {color: #e0fbfc;}
 }
 
 @keyframes rotate{
